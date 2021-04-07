@@ -35,3 +35,73 @@ const fileQuestion = {
 
 
 };
+
+const Questions = {
+    Manager: [
+    {
+        type: "input",
+        message: "Please enter your name",
+        name: "name",
+
+    },
+    {
+        type: "input",
+        message: "What is your id Number?",
+        name: "id",
+    },
+    {
+        type: "input",
+        message: "What is your office number?",
+        name: "officeNumber",
+    },
+    
+
+
+    ],
+    Engineer: [
+        {
+         type: "input",
+         message: "Your Name",
+         name: "name",
+        },
+        {
+         type: "input",
+         message: "What is your id Number?",
+         name: "id",
+        },
+        {
+         type: "input",
+         message: "What is your email?",
+         name: "email",
+        },
+        {
+         type: "input",
+         message: "What is your Github userName?",
+         name: "githubUserName",
+
+        },
+    ],
+    Intern: [
+     {
+        type: "input",
+        message: "Please enter your name",
+        name: "name",
+     },
+     {
+       type: "input",
+       message: "What is your id Number?",
+       name: "name",
+     },
+     {
+      type: "input",
+      message: "What is your email?",
+      name: "email",
+
+     },
+     {
+         type: "input",
+         message: "Name of school you are attending?",
+         name: "school",
+     },
+    ],
+};
