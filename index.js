@@ -105,3 +105,27 @@ const Questions = {
      },
     ],
 };
+const startApp = () =>{
+    selectRole();
+};
+
+const addOrFinish = ()=>{
+    inquirer.prompt(firstQuestion).then((answer)=>{
+        if(answer.Add === "Add Member"){
+            selectRole()
+
+        } else{
+            getFilename();
+
+
+        }
+    });
+};
+
+const selectRole = () => {
+    inquirer.prompt(yourRole).then((answer) =>{
+        if(answer.Add === "Add Member"){
+            
+        }
+    })
+}
